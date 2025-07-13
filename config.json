@@ -1,0 +1,21 @@
+{
+    "port": 8001,
+    "appName": "user-service",
+    "appEnv": "local",
+    "signatureKey": "9GZQtZxTaLBxWtGZZPwN",
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "name": "bljr_microservice_golang",
+        "username": "postgres",
+        "password": "",
+        "maxOpenConnection": 10,
+        "maxLifetimeConnection": 10,
+        "maxIdleConnection": 10,
+        "maxIdleTime": 10
+    },
+    "rateLimiterMaxRequest": 1000,
+    "rateLimiterTimeSecond": 60,
+    "jwtSecretKey": "HTTGc1KHkRoAeM0zwXYp",
+    "jwtExpirationTime": 1440
+}
